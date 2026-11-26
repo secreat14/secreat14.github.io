@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tianyu Xiang’s engineering portfolio in robotics software, embedded systems, and edge AI." data-zh-content="向天宇的个人作品集，展示机器人软件、嵌入式系统与端侧 AI 项目。">
+  <meta name="theme-color" content="#f8f7f3">
+  <title data-zh="向天宇 | 机器人软件与端侧 AI">Tianyu Xiang | Robotics &amp; Edge AI</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/portfolio.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main" data-zh="跳到主要内容">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Tianyu Xiang, home" data-zh-aria-label="向天宇，首页">
+        <span class="monogram" aria-hidden="true">TX</span>
+        <span data-zh="向天宇">Tianyu Xiang</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation" data-zh-aria-label="主导航">
+        <a href="#about" data-zh="关于我">About</a>
+        <a href="#portfolio" data-zh="项目">Projects</a>
+        <a href="#experience" data-zh="工作经历">Experience</a>
+        <a href="#materials" data-zh="求职资料">Materials</a>
+      </nav>
+      <a class="button button-outline header-resume" href="assets/Tianyu_Xiang_Professional_Resume.pdf" hreflang="en" target="_blank" rel="noopener"><span data-zh="英文简历">Résumé</span> <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="shell" id="main">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="role" data-zh="美国东北大学 · 人工智能硕士在读">M.S. in Artificial Intelligence · Northeastern University</p>
+        <h1 id="name" data-zh="向天宇">Tianyu Xiang</h1>
+        <p class="focus" data-zh="机器人软件与端侧 AI">Robotics software and edge AI</p>
+        <p class="bio" data-zh="我在美国东北大学硅谷校区的 Khoury 计算机科学学院攻读人工智能硕士。此前，我在锗犬科技参与了工业四足巡检机器人的研发和现场测试。本科毕业设计中，我探索了如何在嵌入式设备上运行语言模型，根据视觉和语音输入生成机器人任务计划。">I’m a Khoury College graduate student at Northeastern’s Silicon Valley campus. At GeQuan Technology, I helped build and field-test quadruped robots for industrial inspections. My undergraduate thesis explored how a language model running on an embedded board can turn vision and speech inputs into robot task plans.</p>
+      </div>
+      <div class="portrait">
+        <img src="assets/tianyu-xiang.jpg" alt="Tianyu Xiang" data-zh-alt="向天宇" width="1280" height="1280" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="education" aria-labelledby="education-title">
+      <h2 id="education-title" data-zh="教育背景">Education</h2>
+      <ul>
+        <li><strong data-zh="美国东北大学">Northeastern University</strong><span data-zh="人工智能硕士">M.S. in Artificial Intelligence</span><time datetime="2026-09" data-zh="2026 年至今">2026–present</time></li>
+        <li><strong data-zh="深圳技术大学">Shenzhen Technology University</strong><span data-zh="计算机科学与技术 · 工学学士">B.Eng. in Computer Science and Technology</span><span class="date">2021–2025</span></li>
+        <li><strong data-zh="德国阿伦应用技术大学">Aalen University, Germany</strong><span data-zh="交换学习">Exchange study</span><span class="date">2023–2024</span></li>
+      </ul>
+    </section>
+
+    <section class="content-section" id="portfolio" aria-labelledby="portfolio-title">
+      <h2 class="section-heading" id="portfolio-title" data-zh="精选项目">Selected Projects</h2>
+      <article class="project featured" aria-labelledby="quadruped-title">
+        <div class="featured-copy">
+          <p class="project-context" data-zh="锗犬科技 · 现场部署">GeQuan Technology · Field deployment</p>
+          <h3 id="quadruped-title" data-zh="四足机器人工业巡检">Quadruped Robots for Industrial Inspection</h3>
+          <p data-zh="我参与集成了机器人端的感知、决策和运动控制模块，实现自主巡逻。团队在两个工业现场测试了集成系统，并验证了隐患检测和告警功能。">I helped integrate onboard perception, decision-making, and motion control for autonomous patrols. Our team tested the integrated system at two industrial sites, including its ability to detect hazards and send alerts.</p>
+          <p class="stack" data-zh="机器人感知 · 运动控制 · 现场测试">Robot perception · Motion control · Field testing</p>
+        </div>
+        <figure class="featured-photo">
+          <img src="assets/quadruped-prototype.jpg" alt="Quadruped robot with a prototype hardware enclosure" data-zh-alt="装有原型硬件外壳的四足机器人" width="1080" height="1919">
+          <figcaption data-zh="四足巡检机器人原型">Quadruped inspection prototype</figcaption>
+        </figure>
+      </article>
+
+      <div class="projects-grid">
+        <article class="project">
+          <p class="project-context" data-zh="机器人工程">Robotics engineering</p>
+          <h3 data-zh="NexArm 机械臂控制与工作空间建模">NexArm Control &amp; Workspace Mapping</h3>
+          <p data-zh="为基于 ESP32 的机械臂搭建了网页控制台，支持 USB 实时反馈、离线轨迹预览，以及关节限位和末端高度检查。项目也探索了使用 iPhone 扫描工作空间并生成三维模型。">A web console for an ESP32-based robot arm, with live feedback over USB, offline trajectory previews, and joint and height checks. The project also explores iPhone-based 3D workspace scanning.</p>
+          <details>
+            <summary data-zh="查看实现细节">Implementation notes</summary>
+            <p data-zh="控制台运行在 Orange Pi 上，可以显示机械臂腕部 K230 相机的画面。已在实物机械臂上测试小幅运动。手机采集和三维模型与机械臂底座的配准需要分别验证。">The console runs on an Orange Pi and shows the K230 wrist camera feed. Small movements were tested on the physical arm. Phone-based capture and alignment to the arm’s base are separate validation steps.</p>
+          </details>
+          <p class="stack">Python · ESP32 · Orange Pi · ARKit</p>
+        </article>
+
+        <article class="project">
+          <p class="project-context" data-zh="X-Talent · 仿真与模型基准测试">X-Talent · Simulation and model benchmarks</p>
+          <h3 data-zh="BiReLU 脉冲注意力与无人机避障">BiReLU Spiking Attention &amp; Drone Avoidance</h3>
+          <p data-zh="评估了四组注意力阈值，每组使用三个随机种子，并在 KA200 上验证了 INT8 推理。在 PyBullet 仿真中，使用 PPO 将避障成功率从约 25% 提高到 83%。">Evaluated four attention threshold settings across three random seeds and validated INT8 inference on the KA200. In PyBullet, a PPO policy improved obstacle-avoidance success from about 25% to 83%.</p>
+          <details>
+            <summary data-zh="查看注意力消融实验">View attention ablation</summary>
+            <figure class="research-figure">
+              <a href="assets/birelu-threshold-ablation.png" target="_blank" rel="noopener">
+                <img src="assets/birelu-threshold-ablation.png" alt="Validation perplexity for four BiReLU threshold settings over three seeds, with WOSS at 11.510 as a baseline" data-zh-alt="四组 BiReLU 阈值在三个随机种子下的验证集困惑度，WOSS 基准值为 11.510" width="1580" height="899" loading="lazy">
+              </a>
+              <figcaption data-zh="注意力基准测试中的验证集困惑度，取三个随机种子的平均值。">Validation perplexity from the attention benchmark, averaged over three seeds.</figcaption>
+            </figure>
+          </details>
+          <p class="stack" data-zh="脉冲神经网络 · KA200 · PPO · PyBullet">Spiking neural networks · KA200 · PPO · PyBullet</p>
+        </article>
+
+        <article class="project">
+          <p class="project-context" data-zh="本科毕业设计">Undergraduate thesis</p>
+          <h3 data-zh="面向具身智能的端侧行为树">Behavior Trees for Embodied AI</h3>
+          <p data-zh="在 RK3588S 开发板上部署量化语言模型，根据视觉和语音输入生成可复用的机器人行为树。">Deployed a quantized language model on an RK3588S board to generate reusable robot behavior trees from visual and spoken inputs.</p>
+          <p class="stack" data-zh="RK3588S · RKLLM · 模型量化 · 行为树">RK3588S · RKLLM · Model quantization · Behavior trees</p>
+        </article>
+
+        <article class="project">
+          <p class="project-context" data-zh="智能穿戴 · 原型">Wearables · Prototype</p>
+          <h3 data-zh="Rokid 眼镜内容发布工具">Rokid Glasses Content Publisher</h3>
+          <p data-zh="开发了网页画布，用于为 Rokid 眼镜编辑并发布 480 × 640 像素的图片。后端为每张 PNG 图片记录版本并发送更新通知，眼镜端图片同步仍在规划中。">Built a browser canvas for composing and publishing 480 × 640 images for a Rokid glasses display. The backend versions each PNG and sends update notifications. Image sync on the glasses is planned.</p>
+          <p class="stack" data-zh="Fabric.js · PNG 发布 · WebSocket">Fabric.js · PNG publishing · WebSocket</p>
+        </article>
+
+        <article class="project">
+          <p class="project-context" data-zh="计算机视觉 · 校企合作">Computer vision · Industry collaboration</p>
+          <h3 data-zh="轨道交通运维实训系统">Rail Transit Maintenance Training</h3>
+          <p data-zh="开发了运维实训动作实时评分系统，使用 PyTorch 识别并评估学员动作，通过 Flask 和 Gradio 展示结果。项目与深圳铁路集团合作落地。">Built a real-time pose scoring system for maintenance training. Used PyTorch to score trainee movements and Flask and Gradio to present the results. Deployed with Shenzhen Railway Group.</p>
+          <p class="stack" data-zh="PyTorch · 姿态识别 · Flask · Gradio">PyTorch · Pose recognition · Flask · Gradio</p>
+        </article>
+
+        <article class="project">
+          <p class="project-context" data-zh="软件工程">Software engineering</p>
+          <h3>ClawTask</h3>
+          <p data-zh="面向人与 AI 助手的项目协作平台。团队可以在项目群聊中讨论进度、共享任务上下文，并使用可复用的技能和知识资料。">A web platform for organizing people and AI assistants around shared projects. Group chats bring together project discussions, task context, reusable skills, and knowledge resources.</p>
+          <p class="stack" data-zh="React · Web 应用 · 服务架构">React · Web application · Service architecture</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section" id="experience" aria-labelledby="experience-title">
+      <h2 class="section-heading" id="experience-title" data-zh="工作经历">Experience</h2>
+      <div class="experience-list">
+        <article>
+          <p class="date" data-zh="2025 年 9 月 – 2026 年 8 月">Sep 2025 – Aug 2026</p>
+          <div><h3 data-zh="算法工程师（具身智能）">Algorithm Engineer, Embodied AI</h3><p class="organization" data-zh="锗犬科技有限公司">GeQuan Technology</p><p data-zh="集成并测试四足巡检机器人端的感知、规划和控制模块。">Integrated and tested onboard perception, planning, and control for quadruped inspection robots.</p></div>
+        </article>
+        <article>
+          <p class="date" data-zh="2024 年 10 月 – 2025 年 6 月">Oct 2024 – Jun 2025</p>
+          <div><h3 data-zh="项目主管实习生">Project Supervisor Intern</h3><p class="organization" data-zh="深圳市洞墟科技有限公司">Shenzhen Dongxu Technology</p><p data-zh="协调裸眼 3D 显示和全息设备的软硬件开发。">Coordinated hardware and software development for glasses-free 3D displays and holographic devices.</p></div>
+        </article>
+        <article>
+          <p class="date" data-zh="2024 年 3 月 – 2024 年 9 月">Mar 2024 – Sep 2024</p>
+          <div><h3 data-zh="IT 运维实习生">IT Operations Intern</h3><p class="organization" data-zh="深信服科技有限公司">Sangfor Technologies</p><p data-zh="参与维护 VMware 和超融合（HCI）集群，搭建客户演示环境，并开发跨域 KVM 工具。">Maintained VMware and HCI clusters, built customer demo environments, and developed cross-domain KVM tools.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section materials" id="materials" aria-labelledby="materials-title">
+      <h2 class="section-heading" id="materials-title" data-zh="求职资料">Materials</h2>
+      <div class="materials-list">
+        <!-- Add the share link for each real Panopto recording to its data-panopto attribute. -->
+        <article class="assignment" id="professional-introduction" aria-labelledby="intro-title" data-panopto="">
+          <div class="assignment-content">
+            <h3 id="intro-title" data-zh="职业自我介绍">Professional Introduction</h3>
+            <p data-zh="简要介绍我的机器人项目经历和 Co-op 求职方向。">A short introduction to my robotics experience and co-op interests.</p>
+            <details class="script">
+              <summary data-zh="阅读练习稿">Read the practice script</summary>
+              <div class="script-copy">
+                <p data-zh="大家好，我是向天宇，目前在美国东北大学硅谷校区攻读人工智能硕士。">Hi, I’m Tianyu Xiang. I’m a master’s student in artificial intelligence at Northeastern University’s Silicon Valley campus.</p>
+                <p data-zh="读研之前，我参与了四足工业巡检机器人的开发和部署，负责的部分涉及机器人如何感知周围环境、决定去哪里，以及在现场移动。这段经历让我对如何让机器人走出实验室、在实际环境里可靠运行产生了兴趣。">Before starting my master’s, I helped develop and deploy four-legged robots for industrial inspections. I worked on the software that helped the robots understand their surroundings, decide where to go, and move through a site. That experience got me interested in what it takes to make robots work reliably outside the lab.</p>
+                <p data-zh="本科毕业设计中，我在一块小型开发板上运行语言模型，让机器人可以根据视觉和语音输入规划任务。">For my undergraduate thesis, I ran a language model on a small computing board to help robots plan tasks using visual and voice inputs.</p>
+                <p data-zh="我正在寻找人工智能或机器人方向的 Co-op，希望参与机器人系统的开发、测试和部署。谢谢！">I’m looking for an AI or robotics co-op where I can help build, test, and deploy robotic systems. Thanks for listening.</p>
+              </div>
+            </details>
+          </div>
+          <div class="assignment-actions video-actions">
+            <p class="video-status" data-zh="Panopto 视频待添加">Panopto recording pending</p>
+            <button class="button button-dark" type="button" data-video-toggle aria-expanded="false" aria-controls="intro-player" hidden>Play video</button>
+            <a class="quiet-link" data-video-link target="_blank" rel="noopener noreferrer" hidden data-zh="在 Panopto 中打开">Open in Panopto</a>
+          </div>
+          <div class="video-frame" id="intro-player" data-video-player hidden></div>
+        </article>
+
+        <article class="assignment" id="professional-resume" aria-labelledby="resume-title">
+          <div class="assignment-content">
+            <h3 id="resume-title" data-zh="个人简历">Professional Resume</h3>
+            <p data-zh="一页英文简历，涵盖教育背景、工作经历和精选项目。">One-page Khoury MSAI resume covering education, experience, and selected projects.</p>
+          </div>
+          <div class="assignment-actions">
+            <a class="button button-outline" href="assets/Tianyu_Xiang_Professional_Resume.pdf" hreflang="en" target="_blank" rel="noopener" data-zh="查看英文简历（PDF）">View resume PDF</a>
+          </div>
+        </article>
+
+        <article class="assignment" id="tell-me-about-yourself" aria-labelledby="interview-title" data-panopto="">
+          <div class="assignment-content">
+            <h3 id="interview-title" data-zh="面试自我介绍">Tell Me About Yourself</h3>
+            <p data-zh="介绍我如何集成和测试机器人软件的面试回答。">An interview response about integrating and testing robotics software.</p>
+            <details class="script">
+              <summary data-zh="阅读练习稿">Read the practice script</summary>
+              <div class="script-copy">
+                <p data-zh="我是向天宇，目前在美国东北大学硅谷校区攻读人工智能硕士。我喜欢把在实验室里跑通的方案部署到真实硬件上，解决实际运行中的问题。">I’m Tianyu Xiang, an AI master’s student at Northeastern in Silicon Valley. I like working on the step between getting something to run in a lab and getting it to work on real hardware.</p>
+                <p data-zh="在锗犬科技，我参与了四足工业巡检机器人的开发和部署，主要涉及环境感知、决策和运动控制。在两个现场测试集成系统的经历，让我学会了从感知输入到机器人响应，完整地看待整个系统。">At GeQuan Technology, I helped develop and deploy four-legged robots for industrial inspections. I worked on how the robots sensed their surroundings, made decisions, and moved. Testing the integrated system at two sites taught me to look at the full chain, from what the robot senses to how it responds.</p>
+                <p data-zh="本科毕业设计中，我也采用了类似的思路。我把量化语言模型部署在 RK3588S 开发板上，让机器人根据视觉与语音输入生成可复用的任务计划。这个项目让我学会了结合设备算力和机器人系统的需求，判断哪些功能适合在端侧运行。">I took a similar approach in my undergraduate thesis. I deployed a quantized language model on an RK3588S board to help robots generate reusable task plans from vision and speech. That project taught me to think about what I could realistically run on the device and how it would fit with the rest of the robot.</p>
+                <p data-zh="我希望参与开发可靠的机器人软件，也希望向有实际交付经验的团队学习。">I’m here to build reliable robotics software and learn from a team shipping it.</p>
+              </div>
+            </details>
+          </div>
+          <div class="assignment-actions video-actions">
+            <p class="video-status" data-zh="Panopto 视频待添加">Panopto recording pending</p>
+            <button class="button button-dark" type="button" data-video-toggle aria-expanded="false" aria-controls="interview-player" hidden>Play video</button>
+            <a class="quiet-link" data-video-link target="_blank" rel="noopener noreferrer" hidden data-zh="在 Panopto 中打开">Open in Panopto</a>
+          </div>
+          <div class="video-frame" id="interview-player" data-video-player hidden></div>
+        </article>
+
+        <article class="assignment" id="job-search-strategy-plan" aria-labelledby="plan-title">
+          <div class="assignment-content">
+            <h3 id="plan-title" data-zh="求职策略计划">Job Search Strategy Plan</h3>
+            <p data-zh="包含 Co-op 求职目标、目标雇主、投递时间表和拓展职业人脉的计划。">Co-op goals, target employers, an application schedule, and networking activities.</p>
+          </div>
+          <div class="assignment-actions">
+            <a class="button button-outline" href="assets/Tianyu_Xiang_Job_Search_Strategy_Plan.pdf" hreflang="en" data-zh-href="assets/Tianyu_Xiang_Job_Search_Strategy_Plan_ZH.pdf" data-zh-hreflang="zh-CN" target="_blank" rel="noopener" data-zh="查看求职计划（PDF）">View strategy PDF</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-inner">
+        <div><strong data-zh="向天宇">Tianyu Xiang</strong><span data-zh="美国加州圣何塞">San Jose, California</span></div>
+        <a class="quiet-link" href="#top"><span data-zh="返回顶部">Back to top</span> <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom">
+        <nav class="footer-links" aria-label="Contact links" data-zh-aria-label="联系方式">
+          <a href="mailto:xiang.ti@northeastern.edu">xiang.ti@northeastern.edu</a>
+          <a href="mailto:tianyuxiang032@163.com">tianyuxiang032@163.com</a>
+        </nav>
+        <button class="button button-outline" type="button" id="language-switch" lang="zh-CN" hidden>简体中文</button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
